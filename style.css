@@ -1,0 +1,150 @@
+/*
+Theme Name: Vídeo Livre no Brasil
+Theme URI: http://videolivre.org.br/pesquisa
+Description: Tema para publicação online da pesquisa: Vídeo Livre no Brasil
+Version: 2.0
+Author: memeLab 
+Author URI: http://memelab.com.br/
+
+*/
+
+body {
+	background: url(img/bg.jpg);
+	font-family: Tahoma,Geneva,Kalimati,sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	color: #524833;
+	width: 100%;
+	height: 100%;
+	overflow-x:hidden;
+}
+
+img {
+	border:0;
+}
+
+div.wrapper {
+	width: 960px;
+	height: 600px;
+	margin:auto;
+	background: url(img/marca_inside.jpg) top right no-repeat;
+	position: relative;
+}
+
+div.marca {
+	width: 284px;
+	height: 536px;
+	position: absolute;
+	right: -284px;
+	background: url(img/marca_outside.jpg) top left no-repeat;
+	overflow:hidden;
+	z-index: 2;
+}
+
+div.light {
+	width: 960px;
+	height: 310px;
+	position:absolute;
+	top:0;
+	left:0;
+	background: url(img/light.png) top left no-repeat;
+	z-index: -100;
+}
+
+header {
+	width: 100%;
+	height: 183px;
+	display:block;
+	margin-bottom: 60px;
+}
+
+header h1 {
+	width: 222px;
+	height: 183px;
+	margin: 20px 0 0 0;
+	padding:0;
+	display:block;
+	float:left;
+	text-indent: -9999px;
+	background: url(img/logo.jpg) no-repeat;
+}
+
+header h1 a {
+	width: 222px;
+	height: 183px;
+	display:block;
+}
+
+header p {
+	width: 400px;
+	font-size: 10px;
+	line-height: 16px;
+	float:right;
+	margin-right: 200px;
+	margin-top: 90px;
+	text-align: justify;
+}
+
+section#video {
+	width: 480px;
+	float:left;
+}
+
+section#meta {
+	width: 300px;
+	float:left;
+	margin-left: 60px;
+}
+
+section#meta a.acessar {
+	width: 196px;
+	height: 98px;
+	margin-top: 30px;
+	display: block;
+}
+
+section#meta a.baixar {
+	width: 218px;
+	height: 116px;
+	margin-top: 70px;
+	display:block;
+	position: relative;
+}
+
+section#meta a.baixar span.dl {
+	width: 27px;
+	height: 24px;
+	position: absolute;
+	background: url(img/dl-icon.png) top left no-repeat;
+	top: 30px;
+	right: 5px;
+}
+
+
+
+
+
+
+
+
+
+/************* - INSIDE PESQUISA - *********************/
+
+
+
+
+
+header.in {
+	width: 100%;
+	height: 122px;
+}
+
+
+header.in h1 {
+	width: 147px;
+	height: 122px;
+	display: block;
+	float:left;
+	background-color: url(img/pesquisa/logo.jpg);
+}
